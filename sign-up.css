@@ -1,0 +1,55 @@
+body{
+    background-color: #F8F9FA;
+}
+
+.header {
+    background: #7749F8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pageHeader{
+    padding:  3% 15% 3% 15%;
+    background-color: #FFFFFF;
+}
+
+.pageHeader h1{
+    font-weight: 700;
+}
+
+.logo {
+    size: 23px;
+    font-weight: 700;
+    margin: 10px 10px 10px 10px;
+}
+
+.lBtn {
+    display: flex;
+    align-items: center;
+    size: 12px;
+    /* padding: 10px; */
+}
+
+.sBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.sBtn button{
+    background-color: #7749F8 !important;
+    color: aliceblue;
+
+}
+
+
+
+.formBody{
+    width: 30%;
+    height: 55vh;
+    background-color: #FFFFFF;
+    
+}
+
+input:focus{
+    color: #7749F8;
+}

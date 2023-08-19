@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blogging App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="text-light logo">Personal Blogging App</h1>
+        <a href="./sign-up.html" class="text-decoration-none text-light lBtn">Signup</a>
+    </div>
+    <div class="pageHeader">
+        <h1>Login</h1>
+    </div>
+
+    <section class="container mt-5 formBody shadow p-3 mb-5 bg-body-tertiary rounded">
+        <form onsubmit="return false" class="sForm">
+            <div class="mb-3">
+                <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                <input type="email" placeholder="Email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+                <input type="password" placeholder="Password" class="form-control" id="password">
+            </div>
+            <div class="sBtn">
+                <button type="submit" id="loginBtn" class="btn btn-primary btn">Login</button>
+
+            </div>
+        </form>
+    </section>
+
+
+    <script type="module" src="app.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+
+
+</html>
